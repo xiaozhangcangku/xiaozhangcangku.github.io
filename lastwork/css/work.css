@@ -1,0 +1,465 @@
+body>video {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -999999;
+    object-fit: fill;
+}
+
+.header {
+    position: sticky;
+    /* 加粘性定位一定要给一个定位的属性值 */
+    z-index: 999;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 3px 10px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+.nav {
+    height: 100%;
+}
+
+.nav ul {
+    height: 80px;
+}
+
+.nav ul li {
+    float: left;
+    width: calc(100% / 4);
+    height: 100%;
+    text-align: center;
+    line-height: 80px;
+
+}
+
+.nav ul li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font: normal 700 23px "gufeng";
+    transition: all .3s;
+}
+
+.nav ul li a:hover {
+    font-style: italic;
+    color: #13d8a7;
+}
+
+/* 导航栏end */
+.resume {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.resume table {
+    margin: 0 auto;
+}
+
+.resume table tbody tr:nth-of-type(7) {
+    height: 45px;
+}
+
+.resume table tbody tr:nth-of-type(n + 8) {
+    height: 40px;
+}
+
+.resume table,
+tr,
+th,
+td {
+    color: rgb(244, 180, 18);
+    border-color: rgb(8, 131, 198);
+    animation: bc_color 5s infinite forwards;
+}
+
+@keyframes bc_color {
+    0% {
+        color: rgb(244, 180, 18);
+        border-color: rgb(8, 131, 198);
+    }
+
+    25% {
+        color: rgb(11, 70, 197);
+        border-color: rgb(221, 91, 21);
+    }
+
+    50% {
+        color: rgb(46, 9, 179);
+        border-color: rgb(91, 18, 109);
+    }
+
+    75% {
+        color: rgb(78, 217, 47);
+        border-color: rgb(54, 158, 19);
+    }
+
+    100% {
+        color: rgb(153, 197, 40);
+        border-color: rgb(122, 22, 236);
+    }
+}
+
+/* ------------------------ */
+/* 新简历模板start */
+.resume_box2 {
+    background-color: #767f95;
+    margin-top: 50px;
+}
+
+.resume2 {
+    width: 800px;
+    height: 1200px;
+    background-color: #767f95;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.left {
+    float: left;
+    width: 300px;
+    height: 100%;
+    padding: 30px 25px 0 25px;
+    background-color: #254665;
+}
+
+.top {
+    width: 150px;
+    height: 170px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.top img {
+    width: 100%;
+    height: 100%;
+}
+
+.brief_introduction li {
+    margin-bottom: 15px;
+}
+
+.brief_introduction span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.brief_introduction span::after {
+    content: "\e630";
+    font-family: 'iconfont2';
+    color: black;
+    font-size: 18px;
+    line-height: 30px;
+
+}
+
+.brief_introduction i {
+    color: #fff;
+    font-size: 15px;
+}
+
+.brief_introduction li:nth-child(2) span::after {
+    content: "\e648";
+}
+
+.brief_introduction li:nth-child(3) span::after {
+    content: "\e608";
+}
+
+.brief_introduction li:nth-child(4) span::after {
+    content: "\e627";
+}
+
+.brief_introduction li:nth-child(5) span::after {
+    content: "\e77e";
+}
+
+.content {
+    margin-top: 75px;
+}
+
+.content p {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.computer_circular {
+    margin-top: 20px;
+}
+
+.computer_circular em {
+    display: block;
+    width: 160px;
+    height: 5px;
+    border-radius: 2.5px;
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+.math_circular {
+    margin-top: 15px;
+}
+
+.math_circular em {
+    display: block;
+    width: 100px;
+    height: 5px;
+    border-radius: 2.5px;
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+.bottom {
+    margin-top: 45px;
+}
+
+.bottom h1 {
+    color: #e1e3e5;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.bottom ul {
+    width: 200px;
+    margin-top: 10px;
+}
+
+.bottom ul li {
+    float: left;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+    background-color: #dddddd;
+    margin: 0 10px 15px 0;
+    border-radius: 15px;
+}
+
+/* 右边部分 */
+.right {
+    float: left;
+    width: 500px;
+    height: 100%;
+    padding: 25px 15px 0 20px;
+    background-color: #fff;
+}
+
+.right .head h1 {
+    font-size: 30px;
+    color: #254665;
+    margin-bottom: 10px;
+}
+
+.head {
+    margin: 0 0 30px 15px;
+}
+
+.head p {
+    margin-bottom: 10px;
+}
+
+.head p span {
+    font-size: 14px;
+    color: #254665;
+}
+
+.head p span:first-child {
+
+    margin-right: 70px;
+}
+
+/* 教育经验start */
+.education {
+    margin-bottom: 35px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.title em {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #254665;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.title em::after {
+    content: '\e624';
+    font: normal 400 24px "iconfont2";
+    line-height: 40px;
+    color: #fff;
+}
+
+.title strong {
+    font-size: 18px;
+    color: #254665;
+    margin: -20px 0 0 5px;
+}
+
+.title hr {
+    width: 400px;
+    margin-left: 48px;
+}
+
+.ed_body p,
+.exper_body p {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.ed_body p:first-child,
+.exper_body p:first-child {
+    color: #254665;
+}
+
+.ed_body p:first-child strong,
+.exper_body p:first-child strong {
+    margin: 0 40px;
+}
+
+/* 教育经验end */
+
+/* 工作经验start */
+.experience .title em::after {
+    content: '\e627';
+}
+
+.exper_body ul {
+    margin-left: 25px;
+}
+
+.exper_body ul li {
+    list-style: disc;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* 工作经验end */
+
+/* 荣誉证书start */
+.honor {
+    margin-top: 45px;
+}
+
+.honor>.title em::after {
+    content: '\e65e';
+}
+
+.honor_body ul {
+    margin-left: 25px;
+}
+
+.honor_body ul li {
+    font-size: 14px;
+    list-style: disc;
+}
+
+/* 荣誉证书end */
+
+/* 自我评价start */
+.evaluate {
+    margin-top: 45px;
+}
+
+.evaluate>.title em::after {
+    content: '\e725';
+}
+
+.evaluate>p {
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+/* 新简历模板end */
+
+
+/* 跳转start */
+.return {
+    position: fixed;
+    width: 60px;
+    height: 120px;
+    left: 50%;
+    top: 350px;
+    margin-left: 620px;
+}
+
+.return ul {
+    width: 100%;
+    height: 100%;
+}
+
+.return ul li {
+
+    width: 100%;
+    height: 50%;
+}
+
+.return ul li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* background-color: skyblue; */
+    text-align: center;
+    color: #2f2f1b;
+}
+
+.return ul li:first-child a span {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.return ul li:first-child a::after {
+    content: "\e653";
+    position: absolute;
+    top: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    font: normal 700 25px "iconfont";
+    transition: all 0.4s;
+}
+
+.return ul li:first-child a:hover::after {
+    top: -5px;
+    color: rgba(100, 47, 205, 0.413);
+}
+
+
+.return ul li:last-child a span {
+    display: inline-block;
+    margin-top: 2px;
+    font-size: 10px;
+    font-weight: 700;
+
+}
+
+.return ul li:last-child a::after {
+    content: "\e61a";
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font: normal 200 25px "iconfont";
+    transition: all 0.4s;
+}
+
+.return ul li:last-child a:hover::after {
+    top: 30px;
+    color: rgba(0, 0, 0, 0.413);
+}
+
+/* 跳转end */

@@ -1,0 +1,79 @@
+{
+  "id": "3452124",
+  "name": "work",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "375684",
+      "name": "Education experience",
+      "font_class": "jiaoyujingli",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "1410504",
+      "name": "school",
+      "font_class": "school",
+      "unicode": "e6c3",
+      "unicode_decimal": 59075
+    },
+    {
+      "icon_id": "3854336",
+      "name": "奖杯",
+      "font_class": "jiangbei",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "5466064",
+      "name": "pending-evaluate",
+      "font_class": "pending-evaluate",
+      "unicode": "e725",
+      "unicode_decimal": 59173
+    },
+    {
+      "icon_id": "17675192",
+      "name": "icon_age",
+      "font_class": "icon_age",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "540373",
+      "name": "ic_experience",
+      "font_class": "icexperience",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "1375430",
+      "name": "position",
+      "font_class": "position",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "1421475",
+      "name": "sexm",
+      "font_class": "sexm",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "11488253",
+      "name": "email-fill",
+      "font_class": "email-fill",
+      "unicode": "e77e",
+      "unicode_decimal": 59262
+    },
+    {
+      "icon_id": "11488297",
+      "name": "phone",
+      "font_class": "phone",
+      "unicode": "e787",
+      "unicode_decimal": 59271
+    }
+  ]
+}
